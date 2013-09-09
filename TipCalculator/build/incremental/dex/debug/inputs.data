@@ -1,17 +1,18 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1378520367632 3303 45605e2c3916545cfe1391b1e235b154b8781e1b C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity.class
+1378760646095 3512 2aaa36ce3b1e60676846cc27a29d577a70c12adf C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity.class
 1378520367676 782 3ddbb1a0d4dd9392cad039b8ea69e32cc290bece C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$string.class
 1378520367669 424 7ed224ffc55928f25f19fd79a1aa10614df1e5c4 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$layout.class
 1378520367683 747 5002fb8ef4f6605d7129a298f91ec00f32abfc23 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R.class
 1378433325184 361 34a5e4c3c6fd9e49ebe7fd60288d1f936244cdd2 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$attr.class
-1378520367665 741 0e8ff91fd66f79939825ab984d299e6476c1b1ad C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$id.class
-1378520367599 916 c32adb7d04d302cd3bb3a53def9176254b465cf2 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity$2.class
+1378760037089 741 e05380b31aea2a5f7a7b082069c5b56ca52d7262 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$id.class
+1378760646085 1554 c07c41db12bb41ec5d87d5fb94416a7dc21e203f C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity$2.class
 1378433325187 482 bcb3f711ab91ef9b72e121ea22684fb90333b0f9 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$dimen.class
 1378520367679 452 77cfcbc1bf4dd15bb43b0ef66c9e434e6b84e176 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$style.class
-1378520367594 836 68e12ce1b425b685a96291af4857cf9fae54b113 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity$1.class
+1378760646084 1554 a78a3b1d20233a8f329d82378f53d98db0aa34fa C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity$1.class
 1378520367672 409 9cebc4342ba2ce56b08e9da16fffe357c26f0843 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$menu.class
+1378760646087 916 92afedfc9e424fd24a00190d9e7c63356280fbc8 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\MainActivity$3.class
 1369432936000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\13.0.0\support-v4-13.0.0.jar
 1378433325208 359 11bac3f9f615640e92383c84610814d676f49876 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\BuildConfig.class
 1378433325190 428 598e8e89920a12ab0f63784a4a3a25336cd16475 C:\Users\Thomas Tran\AndroidStudioProjects\TipCalculatorProject\TipCalculator\build\classes\debug\ca\practice\tipcalculator\R$drawable.class

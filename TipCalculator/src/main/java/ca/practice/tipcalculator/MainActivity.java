@@ -3,6 +3,8 @@ package ca.practice.tipcalculator;
 import android.app.ActionBar;
 import android.os.Bundle;
 import android.app.Activity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
@@ -16,28 +18,53 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends Activity {
 
+    public DecimalFormat df = new DecimalFormat("0.00");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setupUI(findViewById(R.id.parent));
 
-        /* To Remove Logo after loading
-        *
-        final ActionBar actionBar = getActionBar();
-        actionBar.setDisplayShowHomeEnabled(false);
+        final EditText amount = (EditText)findViewById(R.id.amountText);
+        final EditText percentage = (EditText)findViewById(R.id.percentText);
+        final TextView result = (TextView)findViewById(R.id.tipTextView);
+        final TextView warning = (TextView)findViewById(R.id.warningTextView);
 
 
-        final Button calculate = (Button) findViewById(R.id.calculateButton);
+        amount.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {
 
-        calculate.setOnClickListener(new Button.OnClickListener() {
+            }
 
             @Override
-            public void onClick(View v) {
-                calculate();
+            public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+                calculate(amount, percentage, warning, result);
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
             }
         });
-        */
+
+        percentage.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i2, int i3) {
+                calculate(amount, percentage, warning, result);
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
+        });
     }
 
     /*
@@ -84,16 +111,10 @@ public class MainActivity extends Activity {
         }
     }
 
-    public void calculate(){
+    public void calculate(EditText amount, EditText percentage, TextView warn, TextView result){
         double amt;
         double tip;
         double percent;
-
-        DecimalFormat df = new DecimalFormat("0.00");
-        EditText amount = (EditText)findViewById(R.id.amountText);
-        EditText percentage = (EditText)findViewById(R.id.percentText);
-        TextView result = (TextView)findViewById(R.id.tipTextView);
-        TextView warning = (TextView)findViewById(R.id.warningTextView);
 
         try{
             amt = Double.parseDouble(amount.getText().toString());
@@ -101,12 +122,12 @@ public class MainActivity extends Activity {
             percent /= 100;
             tip = amt * percent;
 
-            warning.setText("");
+            warn.setText("");
 
             result.setText("$" + df.format(tip));
 
         }catch(NumberFormatException ex){
-            warning.setText(R.string.warning_text);
+            warn.setText(R.string.warning_text);
             result.setText(R.string.zero_start);
         }
     }
