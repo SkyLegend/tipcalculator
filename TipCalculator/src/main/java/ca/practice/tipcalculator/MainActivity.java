@@ -15,10 +15,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class MainActivity extends Activity {
-
-    public DecimalFormat df = new DecimalFormat("0.00");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +29,6 @@ public class MainActivity extends Activity {
         final EditText percentage = (EditText)findViewById(R.id.percentText);
         final TextView result = (TextView)findViewById(R.id.tipTextView);
         final TextView warning = (TextView)findViewById(R.id.warningTextView);
-
 
         amount.addTextChangedListener(new TextWatcher() {
             @Override
@@ -124,7 +122,7 @@ public class MainActivity extends Activity {
 
             warn.setText("");
 
-            result.setText("$" + df.format(tip));
+            result.setText(NumberFormat.getCurrencyInstance().format(tip));
 
         }catch(NumberFormatException ex){
             warn.setText(R.string.warning_text);

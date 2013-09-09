@@ -126,7 +126,6 @@
         android:height="45dp"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#ff0000"
-        android:text="Warning: Test" />
+        android:textColor="#ff0000" />
 
 </LinearLayout>
