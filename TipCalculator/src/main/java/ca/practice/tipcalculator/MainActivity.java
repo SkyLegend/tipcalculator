@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         *
         final ActionBar actionBar = getActionBar();
         actionBar.setDisplayShowHomeEnabled(false);
-        */
+
 
         final Button calculate = (Button) findViewById(R.id.calculateButton);
 
@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
                 calculate();
             }
         });
+        */
     }
 
     /*
