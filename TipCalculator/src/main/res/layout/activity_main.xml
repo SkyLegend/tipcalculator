@@ -79,7 +79,7 @@
         android:gravity="right"
         android:text="@string/initial_percent"
         android:selectAllOnFocus="true"
-        android:inputType="numberSigned"
+        android:inputType="numberDecimal|numberSigned"
         android:clickable="false"
         android:layout_gravity="center" />
 
